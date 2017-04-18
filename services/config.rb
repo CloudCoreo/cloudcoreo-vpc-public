@@ -15,7 +15,6 @@ coreo_aws_vpc_vpc "${VPC_NAME}${SUFFIX}" do
   internet_gateway true
   region "${REGION}"
   tags ${VPC_TAGS}
-end
 
 
 ######################################################################
